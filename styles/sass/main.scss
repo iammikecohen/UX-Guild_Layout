@@ -1,0 +1,155 @@
+@import "../../node_modules/modularscale-sass/stylesheets/modular-scale";
+@import "../../node_modules/singularitygs/stylesheets/singularitygs";
+
+$ms-range:
+  1.1   20em,
+  1.333 60em;
+$fonts: (
+  -3: 0,
+  -2: 1,
+  -1: 1,
+  0: 1,
+  1: 1,
+  2: 1,
+  3: 1,
+  4: 1,
+  5: 1,
+  6: 1,
+  7: 1,
+  8: 1,
+  9: 1,
+  10: 1,
+  11: 1,
+  );
+
+@for $i from -3 through 11 {
+  .font-#{$i + 4} {
+    @include ms-respond(font-size, $i);
+  }
+}
+
+
+
+body {
+  background-color: #1e3a7c;
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+main {
+  display: flex;
+}
+
+.white-box {
+  background-color: #fff;
+  color: #1e3a7c;
+}
+
+.mid-section {
+  display: flex;
+}
+
+.weird {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blue;
+  text-align: center;
+}
+
+.vertical {
+  border: 1px solid red;
+  -webkit-writing-mode: vertical-rl;
+      writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  overflow: visible;
+  margin: auto;
+  text-align: left;
+}
+
+.vertical span {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
+}
+
+main {
+  display: grid;
+}
+.clear {
+  clear: left !important;
+}
+@include sgs-change('debug', true);
+
+// @include add-grid(23);
+// @include add-gutter(1/4);
+// @include add-gutter-style('split');
+
+// @include add-grid(172px 225px 32px 755px 32px 235px 380px 92px 65px 610px);
+// @include add-gutter(16px);
+// @include sgs-change('gutter styles', 'fixed');
+@include add-grid(17.2 22.5 3.2 75.5 3.2 23.5 38.0 9.2 6.5 61.0);
+
+@include add-gutter(1.6);
+.visualize {
+    img {
+      max-width: 960px;
+      opacity: .4;
+    }
+  .grid {
+    position: absolute;
+    top: 16px;
+    left:23px;
+    max-width: 933px;
+    display: inline-block;
+    opacity: .6;
+    .vis {
+      @include background-grid($color: red);
+    }
+    .wide {
+      @include grid-span(8, 1);
+    }
+    .right-side {
+      @include grid-span(1, 10);
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+    }
+    .title {
+      @include grid-span(5, 2, (17.2 22.5 3.2 75.5 3.2 23.5 38.0 9.2));
+    }
+    .about {
+      @include grid-span(1, 2, (17.2 22.5 3.2 75.5 3.2 23.5 38.0 9.2));
+    }
+    .ingredients {
+      @include grid-span(1, 4, (17.2 22.5 3.2 75.5 3.2 23.5 38.0 9.2));
+    }
+    .certification {
+      @include grid-span(1, 5, (17.2 22.5 3.2 75.5 3.2 23.5 38.0 9.2));
+    }
+    .thin-line {
+      @include grid-span(1, 9);
+    }
+    .thank-you {
+      @include grid-span(1, 8, (17.2 22.5 3.2 75.5 3.2 23.5 38.0 9.2));
+    }
+    .history {
+      @include grid-span(1, 3, (17.2 22.5 3.2 75.5 3.2 23.5 38.0 9.2));
+    }
+    .instructions {
+      @include grid-span(1, 6, (17.2 22.5 3.2 75.5 3.2 23.5 38.0 9.2));
+    }
+  }
+  .clearfix {
+    &:after {
+      content: '';
+      display: table;
+    }
+  }
+}

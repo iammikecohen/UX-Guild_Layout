@@ -1,0 +1,272 @@
+.font-1 {
+  font-size: 0.75131em; }
+  @media (min-width: 20em) and (max-width: 60em) {
+    .font-1 {
+      font-size: calc( 0.75131em + -0.32912 * ( ( 100vw - 20em) / 40 )); } }
+  @media (min-width: 60em) {
+    .font-1 {
+      font-size: 0.42219em; } }
+
+.font-2 {
+  font-size: 0.82645em; }
+  @media (min-width: 20em) and (max-width: 60em) {
+    .font-2 {
+      font-size: calc( 0.82645em + -0.26366 * ( ( 100vw - 20em) / 40 )); } }
+  @media (min-width: 60em) {
+    .font-2 {
+      font-size: 0.56278em; } }
+
+.font-3 {
+  font-size: 0.90909em; }
+  @media (min-width: 20em) and (max-width: 60em) {
+    .font-3 {
+      font-size: calc( 0.90909em + -0.1589 * ( ( 100vw - 20em) / 40 )); } }
+  @media (min-width: 60em) {
+    .font-3 {
+      font-size: 0.75019em; } }
+
+.font-4 {
+  font-size: 1em; }
+  @media (min-width: 20em) and (max-width: 60em) {
+    .font-4 {
+      font-size: calc( 1em + 0 * ( ( 100vw - 20em) / 40 )); } }
+  @media (min-width: 60em) {
+    .font-4 {
+      font-size: 1em; } }
+
+.font-5 {
+  font-size: 1.1em; }
+  @media (min-width: 20em) and (max-width: 60em) {
+    .font-5 {
+      font-size: calc( 1.1em + 0.233 * ( ( 100vw - 20em) / 40 )); } }
+  @media (min-width: 60em) {
+    .font-5 {
+      font-size: 1.333em; } }
+
+.font-6 {
+  font-size: 1.21em; }
+  @media (min-width: 20em) and (max-width: 60em) {
+    .font-6 {
+      font-size: calc( 1.21em + 0.56689 * ( ( 100vw - 20em) / 40 )); } }
+  @media (min-width: 60em) {
+    .font-6 {
+      font-size: 1.77689em; } }
+
+.font-7 {
+  font-size: 1.331em; }
+  @media (min-width: 20em) and (max-width: 60em) {
+    .font-7 {
+      font-size: calc( 1.331em + 1.03759 * ( ( 100vw - 20em) / 40 )); } }
+  @media (min-width: 60em) {
+    .font-7 {
+      font-size: 2.36859em; } }
+
+.font-8 {
+  font-size: 1.4641em; }
+  @media (min-width: 20em) and (max-width: 60em) {
+    .font-8 {
+      font-size: calc( 1.4641em + 1.69323 * ( ( 100vw - 20em) / 40 )); } }
+  @media (min-width: 60em) {
+    .font-8 {
+      font-size: 3.15733em; } }
+
+.font-9 {
+  font-size: 1.61051em; }
+  @media (min-width: 20em) and (max-width: 60em) {
+    .font-9 {
+      font-size: calc( 1.61051em + 2.59822 * ( ( 100vw - 20em) / 40 )); } }
+  @media (min-width: 60em) {
+    .font-9 {
+      font-size: 4.20873em; } }
+
+.font-10 {
+  font-size: 1.77156em; }
+  @media (min-width: 20em) and (max-width: 60em) {
+    .font-10 {
+      font-size: calc( 1.77156em + 3.83867 * ( ( 100vw - 20em) / 40 )); } }
+  @media (min-width: 60em) {
+    .font-10 {
+      font-size: 5.61023em; } }
+
+.font-11 {
+  font-size: 1.94872em; }
+  @media (min-width: 20em) and (max-width: 60em) {
+    .font-11 {
+      font-size: calc( 1.94872em + 5.52972 * ( ( 100vw - 20em) / 40 )); } }
+  @media (min-width: 60em) {
+    .font-11 {
+      font-size: 7.47844em; } }
+
+.font-12 {
+  font-size: 2.14359em; }
+  @media (min-width: 20em) and (max-width: 60em) {
+    .font-12 {
+      font-size: calc( 2.14359em + 7.82517 * ( ( 100vw - 20em) / 40 )); } }
+  @media (min-width: 60em) {
+    .font-12 {
+      font-size: 9.96876em; } }
+
+.font-13 {
+  font-size: 2.35795em; }
+  @media (min-width: 20em) and (max-width: 60em) {
+    .font-13 {
+      font-size: calc( 2.35795em + 10.93041 * ( ( 100vw - 20em) / 40 )); } }
+  @media (min-width: 60em) {
+    .font-13 {
+      font-size: 13.28836em; } }
+
+.font-14 {
+  font-size: 2.59374em; }
+  @media (min-width: 20em) and (max-width: 60em) {
+    .font-14 {
+      font-size: calc( 2.59374em + 15.11964 * ( ( 100vw - 20em) / 40 )); } }
+  @media (min-width: 60em) {
+    .font-14 {
+      font-size: 17.71338em; } }
+
+.font-15 {
+  font-size: 2.85312em; }
+  @media (min-width: 20em) and (max-width: 60em) {
+    .font-15 {
+      font-size: calc( 2.85312em + 20.75882 * ( ( 100vw - 20em) / 40 )); } }
+  @media (min-width: 60em) {
+    .font-15 {
+      font-size: 23.61194em; } }
+
+body {
+  background-color: #1e3a7c;
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px; }
+
+main {
+  display: flex; }
+
+.white-box {
+  background-color: #fff;
+  color: #1e3a7c; }
+
+.mid-section {
+  display: flex; }
+
+.weird {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blue;
+  text-align: center; }
+
+.vertical {
+  border: 1px solid red;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  overflow: visible;
+  margin: auto;
+  text-align: left; }
+
+.vertical span {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 1em; }
+
+main {
+  display: grid; }
+
+.clear {
+  clear: left !important; }
+
+.visualize img {
+  max-width: 960px;
+  opacity: .4; }
+
+.visualize .grid {
+  position: absolute;
+  top: 16px;
+  left: 23px;
+  max-width: 933px;
+  display: inline-block;
+  opacity: .6; }
+  .visualize .grid .vis {
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww%2Ew3%2Eorg%2F2000%2Fsvg%22%3E%3Crect%20x%3D%220%25%22%20fill%3D%22red%22%20width%3D%226%2E27279%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%226%2E27279%25%22%20fill%3D%22%23ff4040%22%20width%3D%220%2E58352%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%226%2E85631%25%22%20fill%3D%22red%22%20width%3D%228%2E20569%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2215%2E062%25%22%20fill%3D%22%23ff4040%22%20width%3D%220%2E58352%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2215%2E64551%25%22%20fill%3D%22red%22%20width%3D%221%2E16703%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2216%2E81255%25%22%20fill%3D%22%23ff4040%22%20width%3D%220%2E58352%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2217%2E39606%25%22%20fill%3D%22red%22%20width%3D%2227%2E53465%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2244%2E93071%25%22%20fill%3D%22%23ff4040%22%20width%3D%220%2E58352%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2245%2E51422%25%22%20fill%3D%22red%22%20width%3D%221%2E16703%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2246%2E68125%25%22%20fill%3D%22%23ff4040%22%20width%3D%220%2E58352%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2247%2E26477%25%22%20fill%3D%22red%22%20width%3D%228%2E57039%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2255%2E83516%25%22%20fill%3D%22%23ff4040%22%20width%3D%220%2E58352%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2256%2E41867%25%22%20fill%3D%22red%22%20width%3D%2213%2E8585%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2270%2E27717%25%22%20fill%3D%22%23ff4040%22%20width%3D%220%2E58352%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2270%2E86069%25%22%20fill%3D%22red%22%20width%3D%223%2E35522%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2274%2E2159%25%22%20fill%3D%22%23ff4040%22%20width%3D%220%2E58352%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2274%2E79942%25%22%20fill%3D%22red%22%20width%3D%222%2E37053%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2277%2E16995%25%22%20fill%3D%22%23ff4040%22%20width%3D%220%2E58352%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2277%2E75346%25%22%20fill%3D%22red%22%20width%3D%2222%2E24654%25%22%20height%3D%22100%25%22%2F%3E%3C%2Fsvg%3E"); }
+  .visualize .grid .wide {
+    -sgs-span-settings: ("span": 8, "location": 1, "grid": 17.2 22.5 3.2 75.5 3.2 23.5 38 9.2 6.5 61, "gutter": 1.6, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+    width: 74.2159%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none; }
+  .visualize .grid .right-side {
+    -sgs-span-settings: ("span": 1, "location": 10, "grid": 17.2 22.5 3.2 75.5 3.2 23.5 38 9.2 6.5 61, "gutter": 1.6, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+    width: 22.24654%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+    .visualize .grid .right-side ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0; }
+  .visualize .grid .title {
+    -sgs-span-settings: ("span": 5, "location": 2, "grid": 17.2 22.5 3.2 75.5 3.2 23.5 38 9.2, "gutter": 1.6, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+    width: 65.99509%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 9.23833%;
+    clear: none; }
+  .visualize .grid .about {
+    -sgs-span-settings: ("span": 1, "location": 2, "grid": 17.2 22.5 3.2 75.5 3.2 23.5 38 9.2, "gutter": 1.6, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+    width: 11.05651%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 9.23833%;
+    clear: none; }
+  .visualize .grid .ingredients {
+    -sgs-span-settings: ("span": 1, "location": 4, "grid": 17.2 22.5 3.2 75.5 3.2 23.5 38 9.2, "gutter": 1.6, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+    width: 37.10074%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 23.4398%;
+    clear: none; }
+  .visualize .grid .certification {
+    -sgs-span-settings: ("span": 1, "location": 5, "grid": 17.2 22.5 3.2 75.5 3.2 23.5 38 9.2, "gutter": 1.6, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+    width: 1.57248%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 61.32678%;
+    clear: none; }
+  .visualize .grid .thin-line {
+    -sgs-span-settings: ("span": 1, "location": 9, "grid": 17.2 22.5 3.2 75.5 3.2 23.5 38 9.2 6.5 61, "gutter": 1.6, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+    width: 2.37053%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 74.79942%;
+    clear: none; }
+  .visualize .grid .thank-you {
+    -sgs-span-settings: ("span": 1, "location": 8, "grid": 17.2 22.5 3.2 75.5 3.2 23.5 38 9.2, "gutter": 1.6, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+    width: 4.52088%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+  .visualize .grid .history {
+    -sgs-span-settings: ("span": 1, "location": 3, "grid": 17.2 22.5 3.2 75.5 3.2 23.5 38 9.2, "gutter": 1.6, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+    width: 1.57248%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 21.08108%;
+    clear: none; }
+  .visualize .grid .instructions {
+    -sgs-span-settings: ("span": 1, "location": 6, "grid": 17.2 22.5 3.2 75.5 3.2 23.5 38 9.2, "gutter": 1.6, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+    width: 11.54791%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 63.6855%;
+    clear: none; }
+
+.visualize .clearfix:after {
+  content: '';
+  display: table; }
